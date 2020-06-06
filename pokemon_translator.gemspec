@@ -1,8 +1,6 @@
-require_relative 'lib/pokemon_translator/version'
-
 Gem::Specification.new do |spec|
   spec.name          = "pokemon_translator"
-  spec.version       = PokemonTranslator::VERSION
+  spec.version       = "0.1.0"
   spec.authors       = ["machamp0714"]
   spec.email         = ["rateliasudaisuki@gmail.com"]
 

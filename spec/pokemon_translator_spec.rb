@@ -1,9 +1,7 @@
 RSpec.describe PokemonTranslator do
-  it "has a version number" do
-    expect(PokemonTranslator::VERSION).not_to be nil
-  end
+  subject { described_class }
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "translate japanese pokemon name" do
+    expect(subject.exec("カイリキー")).to eq("machamp".capitalize)
   end
 end
